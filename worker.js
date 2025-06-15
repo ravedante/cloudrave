@@ -13,7 +13,7 @@ async function handleRequest(request) {
   }
 
   const filename = decodeURIComponent(path.replace("/video/", ""));
-  const dbUrl = "https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPO/main/db.json";
+  const dbUrl = "https://raw.githubusercontent.com/ravedante/cloudrave/main/db.json";
 
   try {
     const res = await fetch(dbUrl);
